@@ -19,8 +19,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'posts.apps.PostsConfig',
     'api.apps.ApiConfig',
-    'django_scripts',
-    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -99,9 +97,3 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
-
-SCRIPTS_ROOT = BASE_DIR / 'scripts'
-
-CRON_CLASSES = [
-    'scripts.isort',
-]
