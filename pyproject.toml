@@ -10,4 +10,4 @@ default_section = THIRDPARTY
 known_first_party = api, posts
 known_third_party = pytest
 known_django = django
-sections = FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER,DJANGO
+sections = FUTURE,STDLIB,THIRDPARTY,DJANGO,FIRSTPARTY,LOCALFOLDER
